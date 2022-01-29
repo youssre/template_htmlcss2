@@ -1,0 +1,219 @@
+.container{
+    width: 1170px;
+    margin: auto;
+    
+}
+/*Start Home*/
+.home{
+    background-image: url('images/skyscrapers.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+}
+/*Start Navbar*/
+.home .navbar h2{float: left;font-family: "Viner Hand ITC";color: orange}
+.home .navbar ul{
+    list-style: none;
+    float: right;
+    padding-left: 0;
+    overflow: hidden;
+}
+.home .navbar ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    
+}
+.home .navbar ul li a{text-decoration: none;color: #FFF}                 /*color must change*/
+.home .navbar ul .active a,
+.home .navbar ul li a:hover{color: orange;text-decoration: underline}
+
+/*End Navbar*/
+/*Start Subject*/
+.home .subject{
+    padding-top: 120px;
+    text-align: center;
+    color: #FFF;
+    margin: auto;
+}
+.home .subject h1 span{color: orange}
+.home .subject p{color: #FFF;font-size: 150%;line-height: 0;}
+.home .subject button{
+    background: none;
+    padding: 10px 30px;
+    border: 1px solid orange;
+    font-weight: bold;
+    font-size: 120%
+}
+
+/*End Subject*/
+
+/*Start Our-Service */
+.our-service{margin-top: 70px;padding-bottom: 50px}
+.our-service .model{
+    width: 33.333333%;
+    float: left;
+    overflow: hidden;
+    max-height: 100%;
+    margin-bottom: 30px;
+}
+
+.our-service .model .icon{
+    float: left;
+    width: 12%;
+    overflow: hidden;
+    margin: 20px 20px 80px 0;
+
+    
+}
+.our-service .model .icon img{max-width: 100%;}
+
+.our-service .model .text{
+    width: 80%;
+    margin-left: 5%;
+}
+
+/*End Our-Service */
+/*Start Our-Team */
+.our-team{margin-bottom: 70px;}
+.our-team .our{
+    width: 27%;
+    float: left;
+    margin-right: 1%;
+}
+.our-team .test{width: 72%;overflow: hidden}
+.our-team .test span{
+    float: left;
+    width: 190px;
+    height: 200px;
+    background-color: orange;
+    margin: 10px;
+}
+.our-team .test span p{
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+    margin-top: 60px;
+}
+.our-team .test span p:last-child{margin-right: 0;}
+
+/*End Our-Team */
+/*Start Survey*/
+.survey{
+    text-align: center;
+    background-image: url(images/wallpaper.jpg);
+    padding: 50px 0;
+}
+.survey h2{color: limegreen}
+.survey p{color: black;font-weight: bold;}
+.survey h3{
+    color: #FFF;
+    font-size: 130%
+}
+.survey ul{
+    list-style: none; 
+    padding-left: 0;
+    text-align: center;
+}
+.survey ul li{
+    width: 15px;
+    height: 15px;
+    border: 2px solid darkorange;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.survey ul li.active,
+.survey ul li:hover {background-color: darkorange}
+
+
+/*End Survey*/
+/*Start Projects*/
+.project{margin: 50px 0;}
+.project button{
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid #DDD;
+    color: #888;
+    margin: 10px
+}
+.project .active,
+.project button:hover{background-color: orange}
+.project img{
+    width: 30%;
+    float:left;
+    padding: 15px;
+    border: 1px solid #FFF;
+}
+
+/*End Projects*/
+
+/*Start Footer*/
+.footer {
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #191E22;
+    overflow: hidden
+}
+.footer .main{
+    width: 24%;
+    float: left;
+    overflow: hidden;
+    margin: 3px;
+    margin-bottom: 50px
+
+}
+.footer .main h3{color: #FFF;}
+.footer .main p{color: #FFF;}
+.footer .main img{width: 40px;margin: 5px}
+.footer .main button{
+    padding: 10px 20px;
+    background: none;
+    margin: 5px;
+    color: #FFF;
+    border: 1px solid
+}
+.footer .main div img{float: left;margin-right: 10px;}
+.footer .main div h4{color: #FFF;margin-bottom: 5px;}
+.footer .main div span{color: #777;}
+.footer .foot{
+    color: #FFF;
+    text-align: center;
+}
+
+/*End Footer*/
+
+/*End Home*/
+
+/*Start Framework*/
+h2{color: #555;}
+
+h3{color: #333;}
+.clearfix{clear: both;}
+
+p{
+    color: #777;
+    line-height: 1.7;
+}
+
+
+/*End Framework*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
